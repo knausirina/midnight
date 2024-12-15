@@ -2,12 +2,9 @@
 using UnityEngine;
 using System;
 
-namespace Assets.Scripts.Data
+[Serializable]
+public class ZoneData
 {
-    [Serializable]
-    public class ZoneData
-    {
-        public ZoneType ZoneType;
-        public int Time;
-    }
+    public ZoneType ZoneType;
+    public int Time;
 }
