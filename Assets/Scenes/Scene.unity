@@ -10908,7 +10908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c7af931a7dea5741a439b071d9d5ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _zoneType: 0
+  _zoneType: 1
 --- !u!1 &1575636152
 GameObject:
   m_ObjectHideFlags: 0
@@ -15909,11 +15909,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerCamera: {fileID: 963194227}
-  _rigidbody: {fileID: 1861995078}
   _mouseSensitivity: 150
-  _maxLookAngle: 180
   _walkSpeed: 5
-  _maxVelocityChange: 10
 --- !u!1 &1930709127
 GameObject:
   m_ObjectHideFlags: 0

@@ -27,6 +27,7 @@ public class CandleView : MonoBehaviour
         {
             SetAlpha(0);
              _isHasFire = false;
+            _isStartTimer = false;
         }
         else
         {
